@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>
+        Age Calculator
+    </title>
+    <link rel="icon" href="https://www.macmillandictionaryblog.com/wp-content/uploads/2017/07/emoji-1024x650.jpg">
+    <style>
+        *{
+        padding: 0;
+        margin: 0;
+        }
+        body{
+   
+background-image: url("static/image/bg5.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size:cover ;
+background-attachment:fixed;
+        }
+        #age{
+            width: min-content;
+            height: min-content;
+        }
+        .box{
+        margin: auto;
+         padding-top:1rem ; 
+        padding-bottom: 2rem;
+    
+        margin-bottom: 5rem;
+        width:28%;
+    
+        }
+        .in{
+        padding:0.3rem;
+        margin:.2rem;
+        width:76%;
+        font-style: italic;
+        }
+#but{
+color:black;
+background-color:white;
+width:8rem;
+margin: 1rem 4rem;
+}
+#ans{
+    font-size: 1.8rem;
+    margin-left: 3rem;
+margin-top:0.8rem;
+color: red;
+}
+h3{
+    font-size: 1.3rem;
+}
+#im{
+width:13rem;
+margin-top:0.5%;
+margin-left: 40%;
+}
+#container{
+margin:2% auto;
+}
+#spider{
+color:black;
+font-weight:Bold;
+font-style:italic;
+font-size: 1.3rem;
+letter-spacing:.4rem;
+width:40%;
+/* margin-left:33.5%;
+ */
+ margin:.7rem auto;
+
+
+}
+@media screen and (min-width:680px) and (max-width: 800px){
+    html{
+        font-size: 10px;
+    }
+
+/* } 
+.box{
+    height: 12%;
+}*/
+#but{
+    width: 50%;
+} 
+/* #spider{
+    font-size: 1rem;
+    width: 60%;
+    margin-left: 30%;
+} */
+}
+
+@media screen and (max-width:670px) {
+    html{
+        font-size: 6px;
+    }
+    body{
+        
+        background-image: url("bg6.jpg");
+    
+        width: 100%;
+    }
+/*  
+    #im{
+         height: 12rem; 
+        margin-left: 33rem;
+        width: 20rem;
+    } */
+    #spider{
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+        width: 35rem;
+    }
+    /* .box{
+        padding-top: 7rem;
+        height: 35rem;
+        padding-bottom: 10rem;
+        padding-left: 8rem;
+        width: 47rem;
+    } */
+    .in{
+        padding: .3rem;
+        width: 120%;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    #but{
+        width: 95%;
+    } 
+} 
+    </style>
+</head>
+<body>
+<div id="container">
+<div class="photo">   <img id="im" src="static/image/eye.png" ></div>
+    <div id="spider"> PRESENTED BY SPIDERMAN</div>
+
+    <div id="cal" class="box">
+<form method="post" action="/calculate">
+
+    <!-- <h3>
+        SELECT  DATE
+    </h3> -->
+    <input  class="in" type="date" value="00-00-00" name="date">
+
+        <div id="ans">
+            <h3>{{year}} {{var1}} {{month}} {{var2}} {{day}} {{var3}} </h3>
+        </div>
+
+       <input   id="but" class="in" type="submit" value="Calculate Age">
+<!--        <button>Calculate Age</button>-->
+</form>
+<div>
+    <!-- <img id="age" src="https://static4.depositphotos.com/1012907/289/v/600/depositphotos_2891136-stock-illustration-human-aging.jpg" alt=""> -->
+</div>
+        </div>
+
+    </div>
+</body>
+</html>

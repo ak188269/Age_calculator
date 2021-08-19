@@ -1,0 +1,90 @@
+  /* * {
+            padding: 0;
+            margin: 0;
+        } */
+
+        /* body { 
+            height: 550px;
+background-color: blue;
+            /* background: rgb(131, 58, 180);
+            background: radial-gradient(circle, rgba(131, 58, 180, 1) 0%, rgba(29, 34, 253, 0.8804564061952906) 50%, rgba(252, 176, 69, 1) 100%); */
+         
+        /* } */
+
+        /* .in {
+            padding: 8px;
+            margin: 5px;
+            width: 200px;
+            color: white;
+        } */
+
+        /* #but {
+            color: black;
+            background-color: white;
+            width: 100px;
+            margin: 20px 50px;
+        } */
+
+        /* #ans {
+            margin-top: 8px;
+        } */
+
+        /* #im {
+            width: 200px;
+            margin-top: 2%;
+            margin-left: 42%;
+            /* < !--border: 2px solid red;
+            -->border-radius: 20%; 
+        } */
+
+        /* #container {
+            margin: 2% auto;
+        } */
+
+        /* #spider {
+            color: black;
+            font-weight: Bold;
+            font-style: italic;
+            letter-spacing: 6px;
+            margin-left: 36.5%;
+
+            margin-bottom: 3px;
+        } */
+
+        /* .box {
+            border: 2px solid blue;
+            margin: auto;
+            padding: 50px 30px;
+            padding-left: 65px;
+            height: 17rem;
+            width: 16rem;
+            background-color: black;
+            color: white;
+        } */
+
+
+
+        /* <body>
+    <div class="cls"></div>
+    <!-- <div id="container"> -->
+        <!-- <div> <img id="im" src="static/eye.png"></div> -->
+        <!-- <div id="spider"> PRESENTED BY SPIDERMAN</div> -->
+
+        <!-- <div id="cal" class="box">
+        <form method="post" action="/calculate">
+                <h3>Date</h3>
+                <input class="in" name="date" placeholder="Enter date"><br>
+                <h3>Month</h3>
+                <input class="in" name="month" placeholder="Enter month"><br>
+                <h3>Year</h3>
+                <input class="in" name="year" placeholder="Enter year">
+                <div id="ans">
+                    <h3>{{year}} {{var1}} {{month}} {{var2}} {{day}} {{var3}} </h3>
+                </div>
+
+                <input id="but" class="in" type="submit" value="Calculate Age">
+            </form>
+            </div> -->
+
+    <!-- </div> -->
+</body> */
